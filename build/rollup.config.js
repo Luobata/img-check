@@ -37,8 +37,7 @@ module.exports = {
             ],
         }),
         alias({
-            UI: path.resolve(__dirname, '../src/ui'),
-            EVENT: path.resolve(__dirname, '../src/event')
+            TOUCH: path.resolve(__dirname, '../src/touch')
         })
     ]
 // output format - 'amd', 'cjs', 'es6', 'iife', 'umd'
